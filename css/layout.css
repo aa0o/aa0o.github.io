@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+html,
+header,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    opacity: 70%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+}
+
+.center h1 {
+    font-weight: 200;
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.scroll-up {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+#image1 {
+    background: url("../img/fyp.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+
+#image2 {
+    background: url("../img/BrainDrain.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#image3 {
+    background: url("../img/wanderlust.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#border {
+    width: calc(100% - 46px);
+    height: calc(100% - 46px);
+    position: fixed;
+    margin: 20px;
+    border: 4px solid white;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.desc {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    max-width: 480px;
+}
+
+.center a {
+    font-weight: 200;
+    font-size: 2rem;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+#social a {
+    font-size: 1.2rem;
+}
+
+#social {
+    color: white;
+    z-index: 100;
+    margin-top: 30px;
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fab, .fas {
+    margin-left: 6px;
+    margin-right: 6px;
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+html,
+header,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    opacity: 70%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.center h1 {
+    font-weight: 200;
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.scroll-up {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+#border {
+    width: calc(100% - 46px);
+    height: calc(100% - 46px);
+    position: fixed;
+    margin: 20px;
+    border: 4px solid white;
+    z-index: 10;
+    pointer-events: none;
+}
+
+#video {
+    width: calc(100% - 46px);
+    height: calc(100% - 46px);
+    padding: 20px;
+    background-color: black;
+}
+
+#social {
+    color: white;
+    z-index: 100;
+    margin-top: 30px;
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fab, .fas {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+#social a {
+    color: white;
+    text-decoration: none;
+}
+
+.scroll-left {
+    top: 50%;
+    transform: translateY(-50%);
+    position: fixed;
+    z-index: 100;
+    color: white;
+    padding: 24px;
+}
+
+.scroll-right {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    position: fixed;
+    z-index: 100;
+    color: white;
+    padding: 24px;
+}

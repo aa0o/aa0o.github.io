@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #232b2b;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 8px;
+    bottom: 28px;
+    background-color: white;
+    right: 28px;
+    position: absolute;
+    color: black;
+    font-family: 'Major Mono Display', monospace;
+}
+
+#border {
+    width: calc(100% - 46px);
+    height: calc(100% - 46px);
+    position: fixed;
+    margin: 20px;
+    border: 4px solid white;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.col-2-3 {
+    width: 60%;
+    float: left;
+    display: inline-block;
+    position: absolute;
+    left: 48px;
+    top: 48px;
+}
+
+.col-3-3 {
+    display: inline-block;
+    padding: 8px;
+    width: calc(33% - 16px)
+}
+
+.col-1-3 {
+    width: calc(40% - 128px);
+    float: left;
+    display: inline-block;
+    position: absolute;
+    padding: 8px;
+    background-color: white;
+    right: 48px;
+    top: 48px;
+    color: black;
+}
+
+.black-border {
+    width: calc(100% - 24px);
+    height: calc(100% - 24px);
+    border: 4px black solid;
+    padding: 8px;
+}
+
+.border-holder {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
