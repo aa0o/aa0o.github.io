@@ -130,7 +130,17 @@ header {
     transform: translateX(-50%);
 }
 
-.fab, .fas {
+.fab,
+.fas {
     margin-left: 6px;
     margin-right: 6px;
+}
+
+@media only screen and (max-width: 680px) {
+    .center h1 {
+        font-weight: 200;
+        font-size: 2rem;
+        margin: 0;
+        font-family: 'Major Mono Display', monospace;
+    }
 }
